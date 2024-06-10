@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cronometro.css">
+    <title>Cronómetros</title>
+</head>
+<body>
+
+    <h1>Iniciar</h1>
+    <div class="play-button" id="start-button">
+        
+        <div class="play-icon"></div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="timer-container">
+
+            <div class="timer" id="timer1">
+
+                <div class="display">
+
+                    <h1>Tiempo. <span id="time1">00:00</span></h1>
+                   
+                </div>
+
+
+                <div>
+                    <label>Minutos: <input class="minutes1" type="number" id="minutes1" min="" value=""></label>
+                    <label>Segundos: <input class="seconds1" type="number" id="seconds1" min="" max="" value=""></label>
+                </div>
+
+
+                <div id="status-message1" class="status">En Pausa</div>
+            </div>
+
+            <div class="timer" id="timer2">
+                <div class="display">
+                    <h1>Tiempo. <span id="time2">00:00</span></h1>
+                </div>
+
+
+                <div>
+                    <label>Minutos: <input class="minutes2" type="number" id="minutes2" min="" value=""></label>
+                    <label>Segundos: <input class="seconds2" type="number" id="seconds2" min="" max="" value=""></label>
+                </div>
+
+
+                <div id="status-message2" class="status">En Pausa</div>
+            </div>
+
+
+            <div class="timer" id="timer3">
+                <div class="display">
+                    <h1>Tiempo. <span id="time3">00:00</span></h1>
+                </div>
+
+
+                <div>
+                    <label>Minutos: <input class="minutes3" type="number" id="minutes3" min="" value=""></label>
+                    <label>Segundos: <input class="minutes3" type="number" id="seconds3" min="" max="" value=""></label>
+                </div>
+
+
+                <div id="status-message3" class="status">En Pausa</div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <script src="time2.js"></script>
+
+    <a href="index.html" class="button">Cronometro1</a>
+
+</body>
+</html>

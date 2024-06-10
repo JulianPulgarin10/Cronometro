@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronómetros</title>
+</head>
+<body>
+   <h1>Iniciar</h1>
+    <div class="play-button" id="start-button1">
+        <div class="play-icon"></div>
+    </div>
+<br>
+    <div class="timer-container">
+        <div class="timer1">
+            <div class="display">
+                <h1>Tiempo: <span id="time1">00:00</span></h1>
+                
+                <p id="status-message1">En Pausa</p>
+                
+                <input class="minutes1" type="number" id="minutes1" placeholder="Minutos" min="0">
+                <input class="seconds1" type="number" id="seconds1" placeholder="Segundos" min="0">
+            </div>
+        </div>
+    </div>
+    
+   
+    
+
+        <div class="timer2">
+
+            <div class="display">
+
+                <h1>Tiempo: <span id="time2">00:00</span></h1>
+
+                <p id="status-message2">En Pausa</p>
+
+            </div>
+
+            <div>
+                <input class="minutes2" type="number" id="minutes2" placeholder="Minutos" min="0">
+                <input class="seconds2" type="number" id="seconds2" placeholder="Segundos" min="0">
+            </div>
+
+
+        </div>
+        
+    </div>
+    <br><br><br>
+
+
+    <video autoplay muted loop class="video-background">
+        <source src="./img/video1.mp4" type="video/mp4">
+    </video>
+
+
+
+    <script src="script.js"></script>
+
+    <script src="time.js"></script>
+
+    <div class="cronometro">
+    <a href="cronometro.html" class="button">Cronometro2</a>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</html>
